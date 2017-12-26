@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.trannguyentanthuan2903.demotravel.activity.FolderPhotoActivity">
+
+    <include
+        android:id="@+id/top"
+        layout="@layout/layout_top_write_share" />
+
+    <ImageView
+        android:id="@+id/hinhAvatarFolder"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/top"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="12dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/custom_circle"
+        android:contentDescription="Hình du lịch"
+        android:scaleType="fitXY"
+        android:src="@drawable/person" />
+
+    <TextView
+        android:id="@+id/nameAnoy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/hinhAvatarFolder"
+        android:layout_marginLeft="12dp"
+        android:layout_toEndOf="@+id/hinhAvatarFolder"
+        android:layout_toRightOf="@+id/hinhAvatarFolder"
+        android:text="Anoymous" />
+
+    <EditText
+        android:id="@+id/nhapSttFolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hinhAvatarFolder"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/transparent"
+        android:hint="Write something this picture... "
+        android:imeOptions="actionNext"
+        android:inputType="textMultiLine"
+        android:padding="6dp"
+        android:textSize="12sp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/nhapSttFolder"
+        android:background="@color/grey"
+        android:layerType="software" />
+
+    <ImageView
+        android:id="@+id/chonHinhFolder"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignLeft="@+id/nhapSttFolder"
+        android:layout_alignStart="@+id/nhapSttFolder"
+        android:layout_below="@+id/nhapSttFolder"
+        android:layout_marginTop="6dp"
+        android:src="@drawable/camera"
+        android:tint="@color/icon_xanh_duong" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerviewFolder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/chonHinhFolder"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="54dp"
+        android:layout_marginTop="6dp" />
+
+    <LinearLayout
+        android:id="@+id/chonChuDe"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/custom_border"
+        android:orientation="horizontal"
+        android:textColor="@color/icon_xanh_duong"
+        android:textSize="16sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/hinhChuDeFolder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="24dp"
+            android:src="@drawable/person" />
+
+        <TextView
+            android:id="@+id/tenChuDeFolder"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="6dp"
+            android:text="Chủ đề"
+            android:textColor="@color/icon_xanh_duong"
+            android:textSize="18sp" />
+    </LinearLayout>
+</RelativeLayout>

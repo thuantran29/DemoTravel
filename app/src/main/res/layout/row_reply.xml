@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="6dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/avaUserTL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="14dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/nameUserTL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="49dp"
+        android:layout_marginStart="49dp"
+        android:text="TextView"
+        android:layout_marginTop="12dp"
+        android:layout_toRightOf="@+id/avaUserTL"
+        android:layout_toEndOf="@+id/avaUserTL" />
+
+    <TextView
+        android:id="@+id/contentCommentTL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_below="@+id/nameUserTL"
+        android:layout_marginTop="12dp"
+        android:layout_alignLeft="@+id/nameUserTL"
+        android:layout_alignStart="@+id/nameUserTL" />
+
+    <TextView
+        android:id="@+id/likeTL"
+        android:textColor="@color/icon_xanh_duong"
+        android:text="Thích"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/avaUserTL"
+        android:layout_toLeftOf="@+id/contentCommentTL"
+        android:layout_toStartOf="@+id/contentCommentTL" />
+
+</RelativeLayout>

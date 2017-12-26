@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="172dp"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:paddingTop="25dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <TextView
+        android:layout_marginTop="24dp"
+        android:id="@+id/nameHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/emailHeader"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Anoymous"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+    <TextView
+        android:id="@+id/emailHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="email@gmai.com"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    <ImageView
+        android:id="@+id/avatarHeader"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/nameHeader"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/icon_no_image"
+        android:layout_alignRight="@+id/nameHeader" />
+
+</RelativeLayout>

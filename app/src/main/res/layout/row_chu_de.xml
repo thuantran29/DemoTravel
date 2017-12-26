@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1dp"
+    >
+
+    <ImageView
+        android:layout_marginLeft="24dp"
+        android:id="@+id/hinhChuDe"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:src="@drawable/person" />
+    <TextView
+       android:layout_centerVertical="true"
+        android:text="Tên Chủ đề"
+        android:layout_marginLeft="72dp"
+        android:id="@+id/tenChuDe"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <CheckBox
+
+        android:backgroundTint="@color/icon_xanh_duong"
+        android:buttonTint="@color/icon_xanh_duong"
+        android:id="@+id/checkboxChuDe"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>

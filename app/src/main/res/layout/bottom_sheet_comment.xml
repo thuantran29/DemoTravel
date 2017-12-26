@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fillViewport="true">
+
+        <include
+            android:id="@+id/top"
+            layout="@layout/top_bottom__sheet_comment"/>
+        <View
+            android:id="@+id/line"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/top"
+            android:layout_marginTop="24dp"
+            android:background="@color/grey" />
+        <ListView
+            android:layout_marginTop="24dp"
+            android:id="@+id/lv_comment"
+            style="@style/Animation.AppCompat.DropDownUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/viewHorizontal1"
+            android:layout_marginBottom="49dp"
+            android:scrollbars="none"></ListView>
+        <View
+            android:layout_gravity="bottom"
+            android:id="@+id/line1"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="48dp"
+            android:background="@color/grey" />
+
+        <EditText
+            android:id="@+id/editComment"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="bottom"
+            android:background="@android:color/transparent"
+            android:drawableRight="@drawable/sendcmt"
+            android:hint="Write a comment..."
+            android:imeOptions="actionSend|flagNoEnterAction"
+            android:isScrollContainer="true"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:textSize="12sp"
+            android:windowSoftInputMode="adjustPan" />
+
+</FrameLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_previous"/>
+    <ListView
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="48dp"
+        android:id="@+id/lv_reply"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+    <View
+        android:layout_gravity="bottom"
+        android:id="@+id/line1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="48dp"
+        android:background="@color/grey" />
+    <EditText
+        android:id="@+id/editReply"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="bottom"
+        android:background="@android:color/transparent"
+        android:drawableRight="@drawable/sendcmt"
+        android:hint="Write a comment..."
+        android:imeOptions="actionSend|flagNoEnterAction"
+        android:isScrollContainer="true"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:textSize="12sp"
+        android:windowSoftInputMode="adjustPan" />
+
+</FrameLayout>
+

@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "236670511687",
+    "firebase_url": "https://imagelocation-b6d27.firebaseio.com",
+    "project_id": "imagelocation-b6d27",
+    "storage_bucket": "imagelocation-b6d27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236670511687:android:c8eabf6f4792fd6d",
+        "android_client_info": {
+          "package_name": "com.trannguyentanthuan2903.imagelocation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236670511687-6vau3ij8jimagre2g6bs46hpig3t1p5m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trannguyentanthuan2903.imagelocation",
+            "certificate_hash": "ff5eb1b02dc9cb42c7c620245a10a244f489b6b8"
+          }
+        },
+        {
+          "client_id": "236670511687-mqv89hm95rpjv5ogi4sdtecho2bdjn5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0ZVEaNQCa0dUb0cCfUQ229SKzcDbT5r8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236670511687-mqv89hm95rpjv5ogi4sdtecho2bdjn5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236670511687:android:f76c1bb1a3b6c6fa",
+        "android_client_info": {
+          "package_name": "com.trannguyentanthuan2903.demotravel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236670511687-kid8pd58ctv73dkq8vnblm08180tk93l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trannguyentanthuan2903.demotravel",
+            "certificate_hash": "ff5eb1b02dc9cb42c7c620245a10a244f489b6b8"
+          }
+        },
+        {
+          "client_id": "236670511687-mqv89hm95rpjv5ogi4sdtecho2bdjn5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0ZVEaNQCa0dUb0cCfUQ229SKzcDbT5r8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236670511687-mqv89hm95rpjv5ogi4sdtecho2bdjn5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

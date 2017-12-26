@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="6dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@drawable/person"
+        android:id="@+id/avaUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/nameUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="49dp"
+        android:layout_marginStart="49dp"
+        android:text="TextView"
+        android:layout_marginTop="12dp"
+        android:layout_toRightOf="@+id/avaUser"
+        android:layout_toEndOf="@+id/avaUser" />
+
+    <TextView
+        android:id="@+id/contentComment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_below="@+id/nameUser"
+        android:layout_marginTop="12dp"
+        android:layout_alignLeft="@+id/nameUser"
+        android:layout_alignStart="@+id/nameUser" />
+
+    <TextView
+        android:id="@+id/traLoi"
+        android:textColor="@color/icon_xanh_duong"
+        android:text="Trả lời"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contentComment"
+        android:layout_alignLeft="@+id/contentComment"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+       />
+    <TextView
+        android:textSize="12sp"
+        android:id="@+id/like"
+        android:textColor="@color/icon_xanh_duong"
+        android:text="Thích"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contentComment"
+        android:layout_alignLeft="@+id/contentComment"
+    />
+</RelativeLayout>

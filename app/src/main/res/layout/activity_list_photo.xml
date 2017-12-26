@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.trannguyentanthuan2903.demotravel.activity.ListPhotoActivity">
+
+    <include
+        android:id="@+id/top"
+        layout="@layout/layout_top_write_share" />
+
+    <ImageView
+        android:id="@+id/hinhAvaPhoto"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/top"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="12dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/custom_circle"
+        android:contentDescription="Hình du lịch"
+        android:scaleType="fitXY"
+        android:src="@drawable/person" />
+
+    <TextView
+        android:id="@+id/nameAnoy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/hinhAvaPhoto"
+        android:layout_marginLeft="12dp"
+        android:layout_toEndOf="@+id/hinhAvaPhoto"
+        android:layout_toRightOf="@+id/hinhAvaPhoto"
+        android:text="Anoymous" />
+
+    <EditText
+        android:id="@+id/nhapSttFolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hinhAvaPhoto"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/transparent"
+        android:hint="Write something this picture... "
+        android:imeOptions="actionNext"
+        android:inputType="textMultiLine"
+        android:padding="6dp"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/hinhPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/nhapSttFolder"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="54dp"
+        android:layout_marginTop="6dp"
+        android:src="@drawable/noimage" />
+
+    <LinearLayout
+        android:id="@+id/chonChuDe"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/custom_border"
+        android:orientation="horizontal"
+        android:textColor="@color/icon_xanh_duong"
+        android:textSize="16sp">
+
+        <ImageView
+            android:id="@+id/hinhChuDeBottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="24dp"
+            android:src="@drawable/person" />
+
+        <TextView
+            android:id="@+id/tenChuDeBottom"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="6dp"
+            android:text="Chủ đề"
+            android:textColor="@color/icon_xanh_duong"
+            android:textSize="18sp" />
+    </LinearLayout>
+</RelativeLayout>

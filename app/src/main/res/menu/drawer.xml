@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Thông Tin">
+        <menu>
+            <item
+                android:id="@+id/menuVietBai"
+                android:title="Viết bài" />
+
+            <item
+                android:id="@+id/menuChiaSeHinh"
+                android:title="Chia sẽ hình" />
+
+            <item
+                android:id="@+id/menuChiaSeCamera"
+                android:title="Chia sẻ camera" />
+
+        </menu>
+    </item>
+    //menu con/menu cấp hai
+    <item android:title="Hệ Thống">
+        <menu>
+            <item
+                android:id="@+id/menuThongTin"
+                android:title="Cập nhật thông tin" />
+            <item
+                android:id="@+id/menuDoiMatKhau"
+                android:title="Đổi mật khẩu" />
+            <item
+                android:id="@+id/menuClose"
+                android:title="Thoát" />
+        </menu>
+    </item>
+</menu>

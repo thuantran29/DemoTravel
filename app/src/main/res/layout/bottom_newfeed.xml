@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_gravity="bottom"
+    android:layout_height="wrap_content"
+   >
+    <ImageView
+        android:background="@color/xanh_back_ground"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"/>
+    <ImageView
+        android:id="@+id/camera"
+        android:tint="@color/white"
+        android:src="@drawable/camera"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp" />
+    <ImageView
+        android:id="@+id/write"
+        android:tint="@color/white"
+        android:src="@drawable/write"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp" />
+    <ImageView
+        android:id="@+id/insert"
+        android:tint="@color/white"
+        android:src="@drawable/insert"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_centerVertical="true"
+       android:layout_centerHorizontal="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp" />
+</RelativeLayout>

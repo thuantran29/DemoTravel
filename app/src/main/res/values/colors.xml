@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="grey">#c7c6c6</color>
+    <color name="red">#ea0c0c</color>
+    <color name="icon_do"> #ef6262</color>
+    <color name="icon_xanh_duong">#19acd9</color>
+    <color name="icon_xanh_la">#1ae97b</color>
+    <color name="icon_cam">#fd790c</color>
+    <color name="black">#000</color>
+    <color name="grey_dam">#a7a7a7</color>
+    <color name="grey_nhat">#e9e7e7</color>
+    <color name="white">#fff</color>
+    <color name="background">#f4f4f4</color>
+    <color name="xanh_back_ground">#00b4d4</color>
+    <color name="background_expandable">#f5f5f5</color>
+    <color name="button_expandable">#bfbebe</color>
+</resources>
